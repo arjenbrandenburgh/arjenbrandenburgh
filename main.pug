@@ -6,7 +6,7 @@ img(align='right' width='150' height='150' src='https://github.com/' + social.gi
 p
   | Welcome to my GitHub profile! 
   br
-  |  I'm Arjen, Fullstack developer for 
+  |  I'm Arjen, Fullstack Team Lead for 
   a(href='https://www.techspire.nl' target='_blank')
     | Techspire
   |  living in 
@@ -23,12 +23,12 @@ p
     img(alt=badge.name src!='https://img.shields.io/badge/-' + badge.name + '-' + badge.color + '?style=flat-square&logo=' + badge.logo + '&logoColor=white')
 
 
-h2 My latest posts
+h2 My latest articles
 ul
   each article in articles
     li
       a(href=article.url)
-      b=article.title
+        b=article.title
 
 h2 Where to find me
 
@@ -53,7 +53,7 @@ hr
 p(align='center')
   | This README file is generated every 3 hours!
   br
-  | Last refresh: #{refreshDate}}
+  | Last refresh: #{refreshDate}
 
 p(align='center')
   img(src='https://github.com/' + social.github.username + '/' + social.github.username + '/workflows/README%20build/badge.svg')
