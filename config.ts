@@ -18,6 +18,14 @@ export const CONFIG = {
       name: 'Angular',
     },
     {
+      name: 'Vue',
+      logo: 'vue.js',
+    },
+    {
+      name: 'Polymer',
+      logo: 'polymer-project',
+    },
+    {
       name: 'Webpack',
     },
     {

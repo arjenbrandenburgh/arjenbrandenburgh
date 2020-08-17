@@ -1,5 +1,5 @@
 h1
-  |  Oh, hi there!
+  | 👋 Oh, hi there!
 
 img(align='right' width='150' height='150' src='https://github.com/' + social.github.username + '.png?size=150'  style='border-radius:50%')
 
@@ -9,28 +9,26 @@ p
   |  I'm Arjen, Fullstack Team Lead for 
   a(href='https://www.techspire.nl' target='_blank')
     | Techspire
-  |  living in 
-  img(src='https://image.flaticon.com/icons/svg/323/323275.svg' width='13')
-  | 
+  |  living in 🇳🇱 
   b Utrecht, the Netherlands
   | .
 
 
-h2 Things I work with
+h2 🔧 Things I work with
 
 p
   each badge in badges
     img(alt=badge.name src!='https://img.shields.io/badge/-' + badge.name + '-' + badge.color + '?style=flat-square&logo=' + badge.logo + '&logoColor=white')
 
 
-h2 My latest articles
+h2 ✍ My latest articles
 ul
   each article in articles
     li
       a(href=article.url)
         b=article.title
 
-h2 Where to find me
+h2 🌎 Where to find me
 
 p
   a(href='https://github.com/' + social.github.username target='_blank')
