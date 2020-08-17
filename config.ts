@@ -40,14 +40,14 @@ export const CONFIG = {
     },
     {
       name: 'AWS',
-      logo: 'amazonaws',
+      logo: 'amazon-aws',
     },
     {
       name: 'Python',
     },
     {
       name: 'Ruby on Rails',
-      logo: 'rubyonrails',
+      logo: 'ruby-on-rails',
     },
     {
       name: 'Github',
@@ -65,7 +65,7 @@ export const CONFIG = {
       name: 'Jest',
     },
     {
-      name: 'Karma',
+      name: 'Cypress',
     },
     {
       name: 'Jasmine',
