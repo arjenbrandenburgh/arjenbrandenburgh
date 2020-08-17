@@ -1,0 +1,31 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "ts-node index.ts",
+    "format": "prettier --write --ignore-path .gitignore '**/*.{js,ts,json}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arjenbrandenburgh/arjenbrandenburgh.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arjenbrandenburgh/arjenbrandenburgh#readme"
+  },
+  "homepage": "https://github.com/arjenbrandenburgh/arjenbrandenburgh#readme",
+  "author": "Arjen Brandenburgh",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "pug": "^3.0.0",
+    "rss-to-json": "^1.1.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "prettier": "^2.0.5"
+  }
+}

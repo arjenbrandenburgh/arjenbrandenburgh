@@ -1,0 +1,61 @@
+h1
+  |  Oh, hi there!
+
+img(align='right' width='150' height='150' src='https://github.com/' + social.github.username + '.png?size=150'  style='border-radius:50%')
+
+p
+  | Welcome to my GitHub profile! 
+  br
+  |  I'm Arjen, Fullstack developer for 
+  a(href='https://www.techspire.nl' target='_blank')
+    | Techspire
+  |  living in 
+  img(src='https://image.flaticon.com/icons/svg/323/323275.svg' width='13')
+  | 
+  b Utrecht, the Netherlands
+  | .
+
+
+h2 Things I work with
+
+p
+  each badge in badges
+    img(alt=badge.name src!='https://img.shields.io/badge/-' + badge.name + '-' + badge.color + '?style=flat-square&logo=' + badge.logo + '&logoColor=white')
+
+
+h2 My latest posts
+ul
+  each article in articles
+    li
+      a(href=article.url)
+      b=article.title
+
+h2 Where to find me
+
+p
+  a(href='https://github.com/' + social.github.username target='_blank')
+    img(alt='Github' src!='https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white')
+
+  a(href='https://twitter.com/' + social.twitter.username target='_blank')
+    img(alt='Twitter' src!='https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white')
+
+
+  a(href='https://www.linkedin.com/in/' + social.linkedin.username target='_blank')
+    img(alt='LinkedIn' src!='https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white')
+
+  a(href='https://medium.com/@' + social.medium.username target='_blank')
+    img(alt='Medium' src!='https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white')
+
+
+br
+hr
+
+p(align='center')
+  | This README file is generated every 3 hours!
+  br
+  | Last refresh: #{refreshDate}}
+
+p(align='center')
+  img(src='https://github.com/' + social.github.username + '/' + social.github.username + '/workflows/README%20build/badge.svg')
+  img(alt='Stars' src!='https://img.shields.io/github/stars/' + social.github.username + '/' + social.github.username + '?style=flat-square&labelColor=343b41')
+  img(alt='Forks' src!='https://img.shields.io/github/forks/' + social.github.username + '/' + social.github.username + '?style=flat-square&labelColor=343b41')
