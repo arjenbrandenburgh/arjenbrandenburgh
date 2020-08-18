@@ -32,6 +32,20 @@ export const CONFIG = {
     //   url: 'https://www.facebook.com/username',
     // },
   ],
+  github: {
+    username: 'arjenbrandenburgh',
+    colors: {
+      title: 'ffffff',
+      text: 'c9cacc',
+      icon: '2bbc8a',
+      background: '1d1f21',
+    },
+    stats: {
+      mostUsedLanguages: true,
+      overallStats: true,
+    },
+    highlightedRepos: ['arjenbrandenburgh'],
+  },
   instagram: {
     enabled: false,
     username: 'username',

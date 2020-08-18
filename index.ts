@@ -43,8 +43,17 @@ async function getRefreshDate() {
   return Promise.resolve({ refreshDate });
 }
 
-async function getGithubUser() {
-  const github = CONFIG.social.find(item => item.name === 'Github');
+async function getGithubData() {
+  const data = CONFIG.github;
+  const enabled =
+    data.stats.mostUsedLanguages ||
+    data.stats.overallStats ||
+    data.highlightedRepos.length > 0;
+
+  const github = {
+    ...data,
+    enabled,
+  };
 
   return Promise.resolve({ github });
 }
@@ -79,8 +88,8 @@ async function perform() {
   // Refresh date
   promises.push(getRefreshDate());
 
-  // Github user from social
-  promises.push(getGithubUser());
+  // Github data
+  promises.push(getGithubData());
 
   // Get Instagram images
   if (CONFIG.instagram && CONFIG.instagram.enabled) {

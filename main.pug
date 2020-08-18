@@ -12,6 +12,9 @@ if articles && articles.length
 if instagram && instagram.length
   include templates/instagram.pug
 
+if github && github.enabled
+  include templates/github-stats
+
 if social && social.length
   include templates/social.pug
 
@@ -25,5 +28,9 @@ p(align='center')
 
 p(align='center')
   img(src='https://github.com/arjenbrandenburgh/arjenbrandenburgh/workflows/README%20build/badge.svg')
+  |  
   img(alt='Stars' src!='https://img.shields.io/github/stars/arjenbrandenburgh/arjenbrandenburgh?style=flat-square&labelColor=343b41')
+  |  
   img(alt='Forks' src!='https://img.shields.io/github/forks/arjenbrandenburgh/arjenbrandenburgh?style=flat-square&labelColor=343b41')
+  |  
+  img(src!='https://gpvc.arturio.dev/' + github.username alt='Profile views')

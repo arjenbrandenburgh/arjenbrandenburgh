@@ -1,0 +1,15 @@
+h2 📈 GitHub Stats
+
+if github.stats.mostUsedLanguages
+  a(href='https://github.com/' + github.username + '/' + github.username)
+    img(align='center' src='https://github-readme-stats.vercel.app/api/top-langs/?username=' + github.username + '&title_color=' + github.colors.title + '&text_color=' + github.colors.text + '&icon_color=' + github.colors.icon + '&bg_color=' + github.colors.background)
+
+if github.stats.overallStats
+  a(href='https://github.com/' + github.username + '/' + github.username + '')
+    img(align='center' src='https://github-readme-stats.vercel.app/api?username=' + github.username + '&show_icons=true&line_height=27&count_private=true&title_color=' + github.colors.title + '&text_color=' + github.colors.text + '&icon_color=' + github.colors.icon + '&bg_color=' + github.colors.background)
+
+if github.highlightedRepos && github.highlightedRepos.length
+  br
+  each repo in github.highlightedRepos
+    a(href='https://github.com/' + github.username + '/' + repo)
+      img(align='center' src='https://github-readme-stats.vercel.app/api/pin/?username=' + github.username + '&repo=' + repo + '&title_color=' + github.colors.title + '&text_color=' + github.colors.text + '&icon_color=' + github.colors.icon + '&bg_color=' + github.colors.background)
