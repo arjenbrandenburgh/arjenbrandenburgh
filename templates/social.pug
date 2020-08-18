@@ -1,0 +1,6 @@
+h2 🌎 Where to find me
+
+p
+  each item in social
+    a(href=item.url target='_blank')
+      img(alt=item.name src!='https://img.shields.io/badge/' + item.name + '-%23' + item.color + '.svg?&style=for-the-badge&logo=' + item.name + '&logoColor=white')

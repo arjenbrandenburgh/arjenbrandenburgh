@@ -1,49 +1,19 @@
 h1
   | 👋 Oh, hi there!
 
-img(align='right' width='150' height='150' src='https://github.com/' + social.github.username + '.png?size=150'  style='border-radius:50%')
+include templates/about-me.pug
 
-p
-  | Welcome to my GitHub profile! 
-  br
-  |  I'm Arjen, Fullstack Team Lead for 
-  a(href='https://www.techspire.nl' target='_blank')
-    | Techspire
-  |  living in 🇳🇱 
-  b Utrecht, the Netherlands
-  | .
+if badges && badges.length
+  include templates/badges.pug
 
+if articles && articles.length
+  include templates/medium-articles.pug
 
-h2 🔧 Things I work with
+if instagram && instagram.length
+  include templates/instagram.pug
 
-p
-  each badge in badges
-    img(alt=badge.name src!='https://img.shields.io/badge/-' + badge.name + '-' + badge.color + '?style=flat-square&logo=' + badge.logo + '&logoColor=white')
-
-
-h2 ✍ My latest articles
-ul
-  each article in articles
-    li
-      a(href=article.url)
-        b=article.title
-
-h2 🌎 Where to find me
-
-p
-  a(href='https://github.com/' + social.github.username target='_blank')
-    img(alt='Github' src!='https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white')
-
-  a(href='https://twitter.com/' + social.twitter.username target='_blank')
-    img(alt='Twitter' src!='https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white')
-
-
-  a(href='https://www.linkedin.com/in/' + social.linkedin.username target='_blank')
-    img(alt='LinkedIn' src!='https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white')
-
-  a(href='https://medium.com/@' + social.medium.username target='_blank')
-    img(alt='Medium' src!='https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white')
-
+if social && social.length
+  include templates/social.pug
 
 br
 hr
@@ -54,6 +24,6 @@ p(align='center')
   | Last refresh: #{refreshDate}
 
 p(align='center')
-  img(src='https://github.com/' + social.github.username + '/' + social.github.username + '/workflows/README%20build/badge.svg')
-  img(alt='Stars' src!='https://img.shields.io/github/stars/' + social.github.username + '/' + social.github.username + '?style=flat-square&labelColor=343b41')
-  img(alt='Forks' src!='https://img.shields.io/github/forks/' + social.github.username + '/' + social.github.username + '?style=flat-square&labelColor=343b41')
+  img(src='https://github.com/arjenbrandenburgh/arjenbrandenburgh/workflows/README%20build/badge.svg')
+  img(alt='Stars' src!='https://img.shields.io/github/stars/arjenbrandenburgh/arjenbrandenburgh?style=flat-square&labelColor=343b41')
+  img(alt='Forks' src!='https://img.shields.io/github/forks/arjenbrandenburgh/arjenbrandenburgh?style=flat-square&labelColor=343b41')

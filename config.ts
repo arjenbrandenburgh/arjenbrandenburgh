@@ -1,101 +1,134 @@
 export const CONFIG = {
-  social: {
-    medium: {
-      username: 'arjenbrandenburgh',
-    },
-    github: {
-      username: 'arjenbrandenburgh',
-    },
-    twitter: {
-      username: 'ArjenBrand',
-    },
-    linkedin: {
-      username: 'arjen-brandenburgh',
-    },
-  },
-  badges: [
+  social: [
     {
-      name: 'Angular',
-    },
-    {
-      name: 'Vue',
-      logo: 'vue.js',
-    },
-    {
-      name: 'Polymer',
-      logo: 'polymer-project',
-    },
-    {
-      name: 'Webpack',
-    },
-    {
-      name: 'Docker',
-    },
-    {
-      name: 'Typescript',
-    },
-    {
-      name: 'Javascript',
-    },
-    {
-      name: 'Redux',
-    },
-    {
-      name: 'Sass',
-    },
-    {
-      name: 'Git',
-    },
-    {
-      name: 'AWS',
-      logo: 'amazon-aws',
-    },
-    {
-      name: 'Python',
-    },
-    {
-      name: 'Ruby on Rails',
-      logo: 'ruby-on-rails',
+      name: 'Medium',
+      color: '12100E',
+      url: 'https://medium.com/@arjenbrandenburgh',
     },
     {
       name: 'Github',
+      username: 'arjenbrandenburgh',
+      color: '12100E',
+      url: 'https://github.com/arjenbrandenburgh',
     },
     {
-      name: 'npm',
+      name: 'Twitter',
+      color: '1DA1F2',
+      url: 'https://twitter.com/ArjenBrand',
     },
     {
-      name: 'HTML5',
+      name: 'LinkedIn',
+      color: '0077B5',
+      url: 'https://www.linkedin.com/in/arjen-brandenburgh',
     },
-    {
-      name: 'Bootstrap',
-    },
-    {
-      name: 'Jest',
-    },
-    {
-      name: 'Cypress',
-    },
-    {
-      name: 'Jasmine',
-    },
-    {
-      name: 'Mocha',
-    },
-    {
-      name: 'MongoDB',
-    },
-    {
-      name: 'PostgreSQL',
-    },
-    {
-      name: 'MySQL',
-    },
-    {
-      name: 'Prettier',
-    },
-    {
-      name: 'NodeJS',
-      logo: 'Node.js',
-    },
+    // {
+    //   name: 'Instagram',
+    //   color: 'E4405F',
+    //   url: 'https://www.instagram.com/username',
+    // },
+    // {
+    //   name: 'Facebook',
+    //   color: '1877F2',
+    //   url: 'https://www.facebook.com/username',
+    // },
   ],
+  instagram: {
+    enabled: false,
+    username: 'username',
+    numberOfImages: 3,
+  },
+  mediumArticles: {
+    enabled: true,
+    username: 'arjenbrandenburgh',
+    numberOfArticles: 10,
+  },
+  badges: {
+    enabled: true,
+    spectrum: ['46a2f1', '311C87', 'DD0031', '43853d'],
+    list: [
+      {
+        name: 'Angular',
+      },
+      {
+        name: 'Vue',
+        logo: 'vue.js',
+      },
+      {
+        name: 'Polymer',
+        logo: 'polymer-project',
+      },
+      {
+        name: 'Webpack',
+      },
+      {
+        name: 'Docker',
+      },
+      {
+        name: 'Typescript',
+      },
+      {
+        name: 'Javascript',
+      },
+      {
+        name: 'Redux',
+      },
+      {
+        name: 'Sass',
+      },
+      {
+        name: 'Git',
+      },
+      {
+        name: 'AWS',
+        logo: 'amazon-aws',
+      },
+      {
+        name: 'Python',
+      },
+      {
+        name: 'Ruby on Rails',
+        logo: 'ruby-on-rails',
+      },
+      {
+        name: 'Github',
+      },
+      {
+        name: 'npm',
+      },
+      {
+        name: 'HTML5',
+      },
+      {
+        name: 'Bootstrap',
+      },
+      {
+        name: 'Jest',
+      },
+      {
+        name: 'Cypress',
+      },
+      {
+        name: 'Jasmine',
+      },
+      {
+        name: 'Mocha',
+      },
+      {
+        name: 'MongoDB',
+      },
+      {
+        name: 'PostgreSQL',
+      },
+      {
+        name: 'MySQL',
+      },
+      {
+        name: 'Prettier',
+      },
+      {
+        name: 'NodeJS',
+        logo: 'Node.js',
+      },
+    ],
+  },
 };
