@@ -14,12 +14,9 @@
   <li><a href="https://medium.com/dev-jam/understanding-angulars-viewencapsulation-5d8638859d4a?source=rss-4e994d74f767------2"><b>Understanding Angular’s ViewEncapsulation</b></a></li>
   <li><a href="https://medium.com/@arjenbrandenburgh/your-angular-app-as-progressive-web-app-e481043acf65?source=rss-4e994d74f767------2"><b>Your Angular app as Progressive Web App</b></a></li>
 </ul>
-<h2>📷 My latest pictures</h2>
-<p><img src="https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/117939543_142944430833266_6305240617405587859_n.jpg?_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=102&_nc_ohc=JFuc136YIRUAX8mBs-h&oh=42b8c1f1fedcc12591a798a006b1ea03&oe=5F638F05" width="200px"/><img src="https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/p640x640/117698734_2369806479990401_7926913965755868916_n.jpg?_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=105&_nc_ohc=znUACPItxgsAX8miPxt&oh=09acc11ac5b76ae09d49c3326b48fa95&oe=5F6594B5" width="200px"/><img src="https://scontent-yyz1-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/p640x640/117569191_190040375868823_1248187084710888644_n.jpg?_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=107&_nc_ohc=BykgUecrVk8AX8jPDqD&oh=3694255d789a91060f7257f2c6258871&oe=5F650292" width="200px"/>
-</p>
 <h2>🌎 Where to find me</h2>
 <p><a href="https://medium.com/@arjenbrandenburgh" target="_blank"><img alt="Medium" src="https://img.shields.io/badge/Medium-%2312100E.svg?&style=for-the-badge&logo=Medium&logoColor=white"/></a><a href="https://github.com/arjenbrandenburgh" target="_blank"><img alt="Github" src="https://img.shields.io/badge/Github-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white"/></a><a href="https://twitter.com/ArjenBrand" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white"/></a><a href="https://www.linkedin.com/in/arjen-brandenburgh" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=LinkedIn&logoColor=white"/></a>
 </p><br/>
 <hr/>
-<p align="center">This README file is generated every 3 hours!<br/>Last refresh: Tuesday, 18 August, 10:55 CEST</p>
+<p align="center">This README file is generated every 3 hours!<br/>Last refresh: Tuesday, 18 August, 10:57 CEST</p>
 <p align="center"><img src="https://github.com/arjenbrandenburgh/arjenbrandenburgh/workflows/README%20build/badge.svg"/><img alt="Stars" src="https://img.shields.io/github/stars/arjenbrandenburgh/arjenbrandenburgh?style=flat-square&labelColor=343b41"/><img alt="Forks" src="https://img.shields.io/github/forks/arjenbrandenburgh/arjenbrandenburgh?style=flat-square&labelColor=343b41"/></p>
