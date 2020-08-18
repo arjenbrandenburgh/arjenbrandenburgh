@@ -35,10 +35,10 @@ export const CONFIG = {
   github: {
     username: 'arjenbrandenburgh',
     colors: {
-      title: 'ffffff',
-      text: 'c9cacc',
-      icon: '2bbc8a',
-      background: '1d1f21',
+      title: '24292e',
+      text: '24292e',
+      icon: '24292e',
+      background: 'ffffff',
     },
     stats: {
       mostUsedLanguages: true,
