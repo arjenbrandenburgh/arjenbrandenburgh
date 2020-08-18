@@ -58,6 +58,14 @@ async function getGithubData() {
   return Promise.resolve({ github });
 }
 
+async function getSocialData() {
+  const social = CONFIG.social.map(item => ({
+    ...item,
+    logo: item.logo || item.name,
+  }));
+  return Promise.resolve({ social });
+}
+
 async function getInstagramPosts() {
   const instagramImages = await puppeteerService.getLatestInstagramPostsFromAccount(
     CONFIG.instagram.username,
@@ -91,6 +99,9 @@ async function perform() {
   // Github data
   promises.push(getGithubData());
 
+  // Social data
+  promises.push(getSocialData());
+
   // Get Instagram images
   if (CONFIG.instagram && CONFIG.instagram.enabled) {
     promises.push(getInstagramPosts());
@@ -106,7 +117,7 @@ async function perform() {
 
   console.log(`✅ README.md has been succesfully built!`);
 
-  generateReadMe({ ...input, social: CONFIG.social });
+  generateReadMe(input);
 }
 
 perform();

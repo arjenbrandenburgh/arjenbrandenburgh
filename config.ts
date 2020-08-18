@@ -21,6 +21,12 @@ export const CONFIG = {
       color: '0077B5',
       url: 'https://www.linkedin.com/in/arjen-brandenburgh',
     },
+    {
+      name: 'Website',
+      color: '4285F4',
+      logo: 'google-chrome',
+      url: 'https://www.arjenbrandenburgh.nl',
+    },
     // {
     //   name: 'Instagram',
     //   color: 'E4405F',
