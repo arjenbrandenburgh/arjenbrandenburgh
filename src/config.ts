@@ -1,4 +1,6 @@
-export const CONFIG = {
+import { Config } from './types';
+
+export const CONFIG: Config = {
   social: [
     {
       name: 'Medium',
@@ -19,7 +21,7 @@ export const CONFIG = {
     {
       name: 'LinkedIn',
       color: '0077B5',
-      url: 'https://www.linkedin.com/in/arjen-brandenburgh',
+      url: 'https://www.linkedin.com/in/arjenbrandenburgh/',
     },
     {
       name: 'Website',
@@ -70,8 +72,7 @@ export const CONFIG = {
         name: 'Angular',
       },
       {
-        name: 'Vue',
-        logo: 'vue.js',
+        name: 'React',
       },
       {
         name: 'Polymer',
