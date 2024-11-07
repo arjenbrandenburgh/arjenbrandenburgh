@@ -1,12 +1,8 @@
 
 <h1>👋 Oh, hi there!</h1>
-<p>Welcome to my GitHub profile! <br/>I am Arjen,  <b>Head of Engineering</b> for <a href="https://www.techspire.nl" target="_blank">Techspire</a> living in 🇳🇱 <b>Utrecht, the Netherlands</b>.</p>
+<p>Welcome to my GitHub profile! <br/>I am Arjen,  <b>Principal Engineer and Tech Lead</b> for <a href="https://www.eneco.com" target="_blank">Eneco</a> living in 🇳🇱 <b>Utrecht, the Netherlands</b>.</p>
 <p>I love everything tech, and am specialized in Angular. 
   I play 🎸 bass guitar in a rock coverband, love to play board games and am the founder of <a href="https://www.mtgstocks.com/" target="_blank">MTGStocks</a>. I'm also an <a href="https://archiveprogram.github.com/" target="_blank">❄️ Arctic Code Vault Contributor</a>.
-</p>
-<p>
-  At Techspire we specialize in Legacy assessments, modernization, and migration strategies.
-  Our company can help make your software future-proof again.
 </p>
 <hr/>
 <h2>🔧 Things I work with</h2>
@@ -30,5 +26,5 @@
 <p><a href="https://medium.com/@arjenbrandenburgh" target="_blank"><img alt="Medium" src="https://img.shields.io/badge/Medium-%2312100E.svg?&style=for-the-badge&logo=Medium&logoColor=white"/></a><a href="https://github.com/arjenbrandenburgh" target="_blank"><img alt="Github" src="https://img.shields.io/badge/Github-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white"/></a><a href="https://twitter.com/ArjenBrand" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white"/></a><a href="https://www.linkedin.com/in/arjenbrandenburgh/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=LinkedIn&logoColor=white"/></a><a href="https://www.arjenbrandenburgh.nl" target="_blank"><img alt="Website" src="https://img.shields.io/badge/Website-%234285F4.svg?&style=for-the-badge&logo=google-chrome&logoColor=white"/></a>
 </p><br/>
 <hr/>
-<p align="center">This README file is automatically generated every day! The last refresh was on Thursday 7 November at 14:25 CET.<br/>Do you want an awesome GitHub README as well? Read about it in <a href="https://medium.com/@arjenbrandenburgh/you-should-stand-out-on-github-with-a-readme-profile-467e047b6c18" target="_blank">this article</a>.</p>
+<p align="center">This README file is automatically generated every day! The last refresh was on Thursday 7 November at 14:30 CET.<br/>Do you want an awesome GitHub README as well? Read about it in <a href="https://medium.com/@arjenbrandenburgh/you-should-stand-out-on-github-with-a-readme-profile-467e047b6c18" target="_blank">this article</a>.</p>
 <p align="center"><img src="https://github.com/arjenbrandenburgh/arjenbrandenburgh/workflows/README%20build/badge.svg"/> <img alt="Stars" src="https://img.shields.io/github/stars/arjenbrandenburgh/arjenbrandenburgh?style=flat-square&labelColor=343b41"/> <img alt="Forks" src="https://img.shields.io/github/forks/arjenbrandenburgh/arjenbrandenburgh?style=flat-square&labelColor=343b41"/> <img src="https://gpvc.arturio.dev/arjenbrandenburgh" alt="Profile views"/></p>
